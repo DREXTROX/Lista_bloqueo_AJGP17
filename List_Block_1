@@ -14579,7 +14579,7 @@ ff02::3 ip6-allhosts
 # [youramigo.com]
 0.0.0.0 analytics.youramigo.com
 
-# [youtube.com]
+
 0.0.0.0 ads.youtube.com
 
 # [yyapi.net]
@@ -139998,7 +139998,6 @@ ff02::3 ip6-allhosts
 0.0.0.0 www3.doubleclick.com
 0.0.0.0 www.doubleclick.com
 0.0.0.0 www.bt.emsecure.net
-# 0.0.0.0  www.youtube-nocookie.com #[affects various videos]
 # [Google / DoubleClick][AS15169][66.249.64.0 - 66.249.95.255]
 0.0.0.0 ad.rs.doubleclick.net
 # [Google / DoubleClick][AS15169][72.14.192.0 - 72.14.255.255]
@@ -144781,7 +144780,6 @@ ff02::3 ip6-allhosts
 #0.0.0.0 metrics.ticketmaster.com	# interferes with logging in to ticketmaster.com
 #0.0.0.0 nl.sitestat.com	# may interfere with duo.nl
 #0.0.0.0 pro.hit.gemius.pl	# May interfere with some video sites
-#0.0.0.0 s.youtube.com				# Blocking this will interfere with video watching history and may interfere with Google Podcasts
 #0.0.0.0 services.krxd.net
 #0.0.0.0 stats.channel4.com
 #0.0.0.0 t2.hulu.com		# Uncomment to block Hulu.
@@ -147469,7 +147467,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 www.winlottofrequently.com
 0.0.0.0 www.youfiletor.com
 0.0.0.0 www1-van-city-signon.com
-0.0.0.0 wyoutube.fr
+0.0.0.0 w.fr
 0.0.0.0 xcdkb.comfortykive.xyz
 0.0.0.0 xen-media.com
 0.0.0.0 xn--80afden1bnch4a.xn--p1ai
@@ -159368,15 +159366,7 @@ ff02::3 ip6-allhosts
 0.0.0.0 zy16eoat1w.com
 
 
-# Dominios principales de anuncios de YouTube
-youtube.com##.ytp-ad-progress-list
-youtube.com##.ad-container
-youtube.com##.video-ads
-youtube.com##.ytd-action-companion-ad-renderer
-youtube.com##.ytd-promoted-sparkles-web-renderer
-youtube.com##.ytp-ad-module
-youtube.com##.ytp-ad-image-overlay
-youtube.com##.ytp-ad-overlay-container
+
 
 # Dominios de servidores de anuncios
 ads.youtube.com
@@ -159386,9 +159376,7 @@ googlesyndication.com
 adservice.google.com
 youtube-nocookie.com
 yt3.ggpht.com
-www.youtube.com/pagead
-www.youtube.com/ptracking
-www.youtube.com/get_midroll_
+
 
 # Bloqueo de telemetry (opcional)
 youtube.com##.yt-uix-button.yt-uix-button-size-default.yt-uix-button-opacity

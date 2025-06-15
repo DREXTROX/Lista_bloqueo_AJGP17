@@ -3458,11 +3458,11 @@
 
 
 
-&EventType=Impression&
-&hitType=pageview&
-&http_referer=$script,xmlhttprequest,domain=~biletomat.pl|~facebook.com|~jobscore.com
-&refer=http$script
-&t=pageview&
+
+
+
+
+
 -adobe-analytics/
 -adobeDatalayer_bridge.js
 -click-tracker.
